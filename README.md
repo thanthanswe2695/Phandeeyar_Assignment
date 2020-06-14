@@ -8,13 +8,16 @@
         The objective of Open Hluttaw can help you through hundreds of parliamentary respresentative profiles.
        
 # Data Understanding 
-    - Data is collected from  http://api.openhluttaw.org/my/persons as a json format. It has many variables but I had selected the related variables.I would like to know the number of MPs and the number of constituency for each region in that json file.I extracted 1 call of API , recieved 30 number of ids(MPs) and searched the constituency value is located at (memberships > post > label).
+    - Data is collected from  http://api.openhluttaw.org/my/persons as a json format. It has many variables but I had selected the related variables, to find the number of MPs and the number of constituency for each region in that json file.I extracted 1 call of API , recieved 30 number of ids(MPs) and searched the constituency value is located at (memberships > post > label).
     - Region value is getting from constituency value which is used split() method in python.
-    - Create a dataframe(Phandeeyar) includes (MP_ID,Region,Constituency).
+    - Create a dataframe(Phandeeyar) includes (MP_ID,Region,Constituency) by applying pandas dataframe in python.
     - Checked the number of rows and columns,how many unique count,missing values.
-    - Save Phandeeyar dataframe as a Phandeeyar.txt file to apply data visualization part in Power BI.
+    - Save Phandeeyar dataframe as a Phandeeyar.txt file to create a dashboard in power bi.
 # Data Visualization
     - Upload Phandeeyar.txt file in Power BI.
     - Applied power query for data transformation.
-    - Displays the number of MPs in each region using Pie chart and the number of Constituency in each region using bar graph. 
-    - If you don't have power bi software in your machine, I added Phandeeyar_Dashboard_Image in git repo.
+    - Added two measure values for counting the number of MPs and the number of Constituency.
+    - Displayed the number of MPs in each region using Pie chart and the number of Constituency in each region using bar graph. 
+    - If you don't have power bi software in your machine, I added a Phandeeyar_Dashboard_Image screenshort in git repo.
+    
+    
