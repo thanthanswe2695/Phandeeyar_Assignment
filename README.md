@@ -13,6 +13,8 @@
     - Create a dataframe(Phandeeyar) includes (MP_ID,Region,Constituency).
     - Checked the number of rows and columns,how many unique count,missing values.
     - Save Phandeeyar dataframe as a Phandeeyar.txt file to apply data visualization part in Power BI.
+# Data Visualization
     - Upload Phandeeyar.txt file in Power BI.
+    - Applied power query for data transformation.
     - Displays the number of MPs in each region using Pie chart and the number of Constituency in each region using bar graph. 
     - If you don't have power bi software in your machine, I added Phandeeyar_Dashboard_Image in git repo.
